@@ -28,6 +28,10 @@ button {
     cursor: pointer;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 .container { 
     max-width: 1158px;
     padding-left: 15px;
@@ -128,7 +132,7 @@ color: #2e2f42;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 48px;
-    max-width: 494px;
+    max-width: 496px;
 }
 
 .hero-btn {
@@ -143,6 +147,7 @@ color: #2e2f42;
     padding: 16px 32px;
     border: none;
     display: flex;
+    min-width: 169px;
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -162,6 +167,12 @@ color: #2e2f42;
 
 .features-list-item {
     width: calc((100% - 24px * 3) / 4);
+    gap: 24px;
+    margin-right: 24px
+}
+
+.features-list-item:last-child {
+    margin-right: 0;
 }
 
 .features-list-title {
@@ -221,6 +232,8 @@ color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-position {
@@ -231,8 +244,13 @@ color: #2e2f42;
     margin-bottom: 32px;
 }
 
+.position {
+    padding: 32px 0;
+}
+
 .team-list-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio {
