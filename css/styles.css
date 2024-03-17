@@ -39,6 +39,7 @@ button {
 .header {
     margin-top: 24px;
     margin-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
@@ -58,6 +59,7 @@ button {
 .header-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .header-nav-link {
@@ -68,6 +70,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-list-link {
